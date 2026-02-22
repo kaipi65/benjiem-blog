@@ -1,15 +1,39 @@
+[[main]]
+    identifier = "home"
+    name = "主页"
+    url = "/"
+    weight = 1
+    [main.params]
+        icon = "home"
+
+[[main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 2
+    [main.params]
+        icon = "user"
+
+[[main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 3
+    [main.params]
+        icon = "archive"
+
+[[main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 4
+    [main.params]
+        icon = "search"
+
+# 下面是你左下角的社交链接，你可以随时把 url 换成你自己的！
 [[social]]
     identifier = "github"
-    name       = "GitHub"
-    url        = "https://github.com/CaiJimmy/hugo-theme-stack"
-
+    name = "GitHub"
+    url = "https://github.com"
     [social.params]
         icon = "brand-github"
-
-[[social]]
-    identifier = "twitter"
-    name       = "Twitter"
-    url        = "https://twitter.com"
-
-    [social.params]
-        icon = "brand-twitter"
