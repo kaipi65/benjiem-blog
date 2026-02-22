@@ -25,15 +25,14 @@ favicon        = "img/avatar.png"
     page     = [{ type = "toc" }]
 
 [comments]
-    # See complete configuration in config/_default/params.toml
-    enabled  = true
-    provider = "disqus"
+    enabled = true
+    provider = "giscus"
 
-# GDPR Cookie Consent Configuration
-# When enabled, analytics and functional cookies require user consent
-[cookies]
-    enabled = false
-
-    [cookies.categories]
-        analytics  = true
-        functional = true
+[comments.giscus]
+    repo = "kaipi65/benjiem-blog"
+    repoId = "R_kgDORV8ryQ"
+    category = "Announcements"
+    categoryId = "DIC_kwDORV8ryc4C2-qC"
+    mapping = "title"
+    lightTheme = "light"
+    darkTheme = "transparent_dark"
