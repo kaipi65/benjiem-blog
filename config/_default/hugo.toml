@@ -1,4 +1,4 @@
-baseURL                = baseURL = "https://kaipi65.github.io/benjiem-blog/"
+baseURL                = "https://kaipi65.github.io/benjiem-blog/"
 languageCode           = "en-us"
 title                  = "Hugo Theme Stack"
 # Theme i18n support
